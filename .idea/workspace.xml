@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e45d4ff-1a18-45b4-9ad9-791686f8094e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/business/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/business/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/converter/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/converter/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/dtos/UserRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/dtos/UserRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/dtos/UserResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/dtos/UserResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/security/JwtRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/security/JwtRequestFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/security/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/security/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/security/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/security/UserDetailsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
     </list>
@@ -74,12 +59,12 @@
     &quot;assignee&quot;: &quot;rodolfocfaedo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/rodolfocfaedo/task_scheduler.git&quot;,
-    &quot;accountId&quot;: &quot;b2bd37b0-d3c3-4633-a289-1ab94990dd67&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/rodolfocfaedo/task-scheduler.git",
+    "accountId": "b2bd37b0-d3c3-4633-a289-1ab94990dd67"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -104,10 +89,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "<unknown>",
+    "git-widget-placeholder": "feature/spring__security",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/Projects/task_scheduler/user/src/main/java/io/github/rodolfocf/user/infrastructure/security",
-    "settings.editor.selected.configurable": "preferences.general"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -151,5 +136,10 @@
       <updated>1759535965142</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>
