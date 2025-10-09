@@ -1,0 +1,60 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.5.6'
+	id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'io.github.rodolfocf'
+version = '0.0.1-SNAPSHOT'
+description = 'Demo project for Spring Boot'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(21)
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+
+    // --- SPRING BOOT STARTERS ---
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // --- LOMBOK ---
+    compileOnly 'org.projectlombok:lombok:1.18.38'
+    annotationProcessor 'org.projectlombok:lombok:1.18.38'
+
+    // --- DATABASE ---
+    runtimeOnly 'org.postgresql:postgresql:42.7.2'
+
+    // --- JJWT (JSON Web Token) ---
+    implementation 'io.jsonwebtoken:jjwt-api:0.12.7'
+    runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.12.7'
+    runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.12.7'
+
+    // --- MAPSTRUCT ---
+    implementation 'org.mapstruct:mapstruct:1.6.3'
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.6.3'
+    annotationProcessor 'org.projectlombok:lombok-mapstruct-binding:0.2.0'
+
+    // --- SPRINGDOC (Swagger via OpenAPI UI) ---
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.8'
+    implementation 'org.springdoc:springdoc-openapi-starter-common:2.8.8'
+
+    // --- TEST DEPENDENCIES ---
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.mockito:mockito-core:5.12.0'
+    testImplementation 'org.mockito:mockito-junit-jupiter:5.12.0'
+    testImplementation 'net.bytebuddy:byte-buddy:1.14.13'
+    testImplementation 'net.bytebuddy:byte-buddy-agent:1.14.13'
+    testImplementation 'org.assertj:assertj-core:3.25.3'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
