@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e45d4ff-1a18-45b4-9ad9-791686f8094e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/dtos/LoginRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/dtos/LoginResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/exceptions/ConflictException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/business/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/business/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/converter/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/converter/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/security/JwtService.java" afterDir="false" />
-    </list>
+    <list default="true" id="6e45d4ff-1a18-45b4-9ad9-791686f8094e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +21,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -92,22 +77,22 @@
     <option name="showScratchesAndConsoles" value="false" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build user.executor": "Run",
-    "Gradle.UserApplication.executor": "Run",
-    "Gradle.user [:io.github.rodolfocf.user.UserApplication.main()].executor": "Run",
-    "Gradle.user [:user:io.github.rodolfocf.user.UserApplication.main()].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/user__controller",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Projects/task_scheduler/user/src/main/java/io/github/rodolfocf/user/infrastructure/dtos",
-    "settings.editor.selected.configurable": "preferences.general"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build user.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.user [:io.github.rodolfocf.user.UserApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.user [:user:io.github.rodolfocf.user.UserApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/user__controller&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Projects/task_scheduler/user/src/main/java/io/github/rodolfocf/user/infrastructure/dtos&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Projects\task_scheduler\user\src\main\java\io\github\rodolfocf\user\infrastructure\dtos" />
