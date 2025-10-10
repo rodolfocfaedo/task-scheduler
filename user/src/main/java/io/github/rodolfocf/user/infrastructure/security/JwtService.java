@@ -39,13 +39,13 @@ public class JwtService {
     /**
      * Gera um token JWT com subject (usuário) e claim de role.
      */
-    public String generateToken(String subject, String role) {
+    public String generateToken(String subject) {
         Date now = new Date();
         Date expiryDate = new Date(now.getTime() + jwtExpirationMs);
 
         return Jwts.builder()
                 .subject(subject)                        // substitui setSubject()
-                .claim("role", role)                      // claim customizada
+                //.claim("role", role)                      // claim customizada
                 .issuedAt(now)                            // substitui setIssuedAt()
                 .expiration(expiryDate)                   // substitui setExpiration()
                 .signWith(getSigningKey(), Jwts.SIG.HS256)// nova assinatura (sem depreciação)
