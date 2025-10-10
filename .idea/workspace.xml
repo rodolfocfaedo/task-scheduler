@@ -22,6 +22,11 @@
       <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/converter/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/converter/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/repositories/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/security/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/security/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/io/github/rodolfocf/user/infrastructure/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,12 +77,12 @@
     &quot;assignee&quot;: &quot;rodolfocfaedo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/rodolfocfaedo/task_scheduler.git&quot;,
-    &quot;accountId&quot;: &quot;b2bd37b0-d3c3-4633-a289-1ab94990dd67&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/rodolfocfaedo/task-scheduler.git",
+    "accountId": "b2bd37b0-d3c3-4633-a289-1ab94990dd67"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -106,6 +111,10 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/Projects/task_scheduler/user/src/main/java/io/github/rodolfocf/user/infrastructure/dtos",
     "settings.editor.selected.configurable": "preferences.general"
+    "git-widget-placeholder": "feature/spring__security",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Projects/task_scheduler/user/src/main/java/io/github/rodolfocf/user/infrastructure/security",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -150,5 +159,10 @@
       <updated>1759535965142</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>
