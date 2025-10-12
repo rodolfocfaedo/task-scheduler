@@ -45,6 +45,7 @@ public class SecurityConfig {
 
                 .authorizeHttpRequests(auth -> auth
                                 .requestMatchers("/auth/**").permitAll()
+                                .requestMatchers("/user/register").permitAll()
                                 // Libera todas as rotas que começam com /auth
                                 // 🔧 ALTERAR AQUI se você mudar o prefixo dos endpoints de autenticação (ex: /api/auth)
 

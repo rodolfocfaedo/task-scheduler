@@ -1,0 +1,22 @@
+server:
+  port: 8081 # Porta da aplicação (🔧 altere se necessário)
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ts_task_db # 🔧 Nome do banco de dados
+    username: postgres # 🔧 Usuário do banco
+    password: 9951 # 🔧 Senha do banco
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update # 🔧 Em desenvolvimento use 'update'. Em produção, prefira 'validate' ou 'none'
+    show-sql: true # Mostra as queries no console (bom para debug)
+    properties:
+      hibernate:
+        format_sql: true # Formata as queries no log
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+app:
+  jwt:
+    secret: sua-chave-secreta-super-segura-aqui-com-no-minimo-256-bits
+    expiration-ms : 3600000
