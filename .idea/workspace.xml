@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e45d4ff-1a18-45b4-9ad9-791686f8094e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/task-scheduler/src/main/java/io/github/rodolfocf/taskscheduler/infrastructure/client/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-scheduler/src/main/java/io/github/rodolfocf/taskscheduler/infrastructure/security/JwtRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-scheduler/src/main/java/io/github/rodolfocf/taskscheduler/infrastructure/security/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-scheduler/src/main/java/io/github/rodolfocf/taskscheduler/infrastructure/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-scheduler/src/main/java/io/github/rodolfocf/taskscheduler/infrastructure/security/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Scheduler/Login User.bru" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Scheduler/Register User.bru" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Scheduler/bruno.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-scheduler/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/task-scheduler/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-scheduler/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/task-scheduler/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="6e45d4ff-1a18-45b4-9ad9-791686f8094e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,6 +121,7 @@
       <recent name="E:\Projects\task_scheduler\user\src\main\java\io\github\rodolfocf\user\infrastructure\security" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.github.rodolfocf.taskscheduler.infrastructure.dto" />
       <recent name="io.github.rodolfocf.user.infrastructure.dtos" />
     </key>
   </component>
