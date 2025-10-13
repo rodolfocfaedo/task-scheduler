@@ -20,3 +20,6 @@ app:
   jwt:
     secret: sua-chave-secreta-super-segura-aqui-com-no-minimo-256-bits
     expiration-ms : 3600000
+
+user:
+  url: localhost:8080
